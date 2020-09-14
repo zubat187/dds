@@ -2,6 +2,35 @@
 #include <iostream>
 using namespace std;
 
+void task10(){
+int day;
+cout <<"Vvedite chislo dnya nedeli" <<endl;
+cin >> day;
+switch ( day ){
+  case 1:
+  cout <<"Monday";
+  break;
+  case 2:
+  cout <<"Tuesday";
+  break;
+  case 3:
+  cout <<"Wendsday";
+  break;
+  case 4:
+  cout <<"Thersday";
+  break;
+  case 5:
+  cout <<"Friday";
+  break;
+  case 6:
+  cout <<"Satarday";
+  break;
+  case 7:
+  cout <<"Sunday";
+  break;
+}
+}
+
 void task6(){
 int a;
 int b;
@@ -43,6 +72,7 @@ if (A%2 == 0 )
 cout <<"Chislo chetnoe";
 else if (A%2 >= 1 )
 cout <<"Chislo nechetnoe";
+task10();
 task5();
 task6();
 return 0;
