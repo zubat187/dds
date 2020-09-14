@@ -2,6 +2,52 @@
 #include <iostream>
 using namespace std;
 
+void task8(){
+  int dayM;
+  int yearN;//Доделать
+  cout <<"VVedite chislo mesyaca" <<endl;
+  cin >> dayM;
+  switch(dayM){
+    case 1:
+    cout <<"31";
+    break;
+    case 2:
+    cout <<"28 or 29";
+    break;
+    case 3:
+    cout <<"31";
+    break;
+    case 4:
+    cout <<"30";
+    break;
+    case 5:
+    cout <<"31";
+    break;
+    case 6:
+    cout <<"30";
+    break;
+    case 7:
+    cout <<"31";
+    break;
+    case 8:
+    cout <<"31";
+    break;
+    case 9:
+    cout <<"30";
+    break;
+    case 10:
+    cout <<"31";
+    break;
+    case 11:
+    cout <<"30";
+    break;
+    case 12:
+    cout <<"31";
+    break;
+  }
+}
+
+
 void task10(){
 int day;
 cout <<"Vvedite chislo dnya nedeli" <<endl;
@@ -72,6 +118,7 @@ if (A%2 == 0 )
 cout <<"Chislo chetnoe";
 else if (A%2 >= 1 )
 cout <<"Chislo nechetnoe";
+task8();
 task10();
 task5();
 task6();
