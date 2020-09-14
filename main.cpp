@@ -2,6 +2,23 @@
 #include <iostream>
 using namespace std;
 
+void task6(){
+int a;
+int b;
+int c;
+cout <<"VVedite storony treugolnika" <<endl;
+cin >> a;
+cin >> b;
+cin >> c;
+cout << "Proverka treugolnika" <<endl;
+if ((a+b>c) && (a+c>b) && (b+c>a))
+cout <<"Treugolnik sushestvuet" <<endl;
+else 
+cout <<"Treugolnik ne sushestvuet" <<endl;
+
+
+}
+
 void task5(){
   int a;
   int b;
@@ -27,5 +44,7 @@ cout <<"Chislo chetnoe";
 else if (A%2 >= 1 )
 cout <<"Chislo nechetnoe";
 task5();
+task6();
 return 0;
 }
+
