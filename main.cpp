@@ -2,15 +2,13 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  int a;
-  int b;
-  cout << "Vvedite 2 chisla!"<<endl;
-  cin >>a;
-  cin >>b;
-  a = a + b;
-  b = a - b;
-  a = a - b;
-  cout <<"Chisla pomenyzlis mestami:" <<endl <<a <<endl <<b;
-  return 0;
+int main(){
+int A;
+cout <<"Vvedite chislo A" <<endl;
+cin >> A;
+if (A%2 == 0 )
+cout <<"Chislo chetnoe";
+else if (A%2 >= 1 )
+cout <<"Chislo nechetnoe";
+return 0;
 }
