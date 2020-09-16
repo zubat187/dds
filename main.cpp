@@ -9,40 +9,40 @@ void task8(){
   cin >> dayM;
   switch(dayM){
     case 1:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
     case 2:
-    cout <<"28 or 29";
+    cout <<"28 or 29" <<endl;
     break;
     case 3:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
     case 4:
-    cout <<"30";
+    cout <<"30" <<endl;
     break;
     case 5:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
     case 6:
-    cout <<"30";
+    cout <<"30" <<endl;
     break;
     case 7:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
     case 8:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
     case 9:
-    cout <<"30";
+    cout <<"30" <<endl;
     break;
     case 10:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
     case 11:
-    cout <<"30";
+    cout <<"30" <<endl;
     break;
     case 12:
-    cout <<"31";
+    cout <<"31" <<endl;
     break;
   }
 }
@@ -54,25 +54,25 @@ cout <<"Vvedite chislo dnya nedeli" <<endl;
 cin >> day;
 switch ( day ){
   case 1:
-  cout <<"Monday";
+  cout <<"Monday" <<endl;
   break;
   case 2:
-  cout <<"Tuesday";
+  cout <<"Tuesday" <<endl;
   break;
   case 3:
-  cout <<"Wendsday";
+  cout <<"Wendsday" <<endl;
   break;
   case 4:
-  cout <<"Thersday";
+  cout <<"Thersday" <<endl;
   break;
   case 5:
-  cout <<"Friday";
+  cout <<"Friday" <<endl;
   break;
   case 6:
-  cout <<"Satarday";
+  cout <<"Satarday" <<endl;
   break;
   case 7:
-  cout <<"Sunday";
+  cout <<"Sunday" <<endl;
   break;
 }
 }
@@ -85,7 +85,7 @@ cout <<"VVedite storony treugolnika" <<endl;
 cin >> a;
 cin >> b;
 cin >> c;
-cout << "Proverka treugolnika" <<endl;
+cout << "Proverka treugolnika... ... ..." <<endl;
 if ((a+b>c) && (a+c>b) && (b+c>a))
 cout <<"Treugolnik sushestvuet" <<endl;
 else 
@@ -115,9 +115,9 @@ int A;
 cout <<"Vvedite chislo A" <<endl;
 cin >> A;
 if (A%2 == 0 )
-cout <<"Chislo chetnoe";
+cout <<"Chislo chetnoe" <<endl;
 else if (A%2 >= 1 )
-cout <<"Chislo nechetnoe";
+cout <<"Chislo nechetnoe" <<endl;
 task8();
 task10();
 task5();
